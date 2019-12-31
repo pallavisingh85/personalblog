@@ -2,27 +2,30 @@
 @import url("card.css");
 @import url("content.css");
 
-  .header{
+body{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header{
     grid-area: hd;
     text-align: center;
     background: #2ab7ca;
-  }
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 24px;
+}
 
-  .footer{
-    grid-area: ft;
-  }
-
-  .sidebar{
+.sidebar{
     grid-area: sd;
     padding-left: 32px;
     padding-right: 32px;
     font-size: 20px;
     font-style:italic
-  }
+}
 
-  .footer{
-   text-align: center;
-   background: #fed766;
-   padding: 16px;
-   margin-top:16px;
-  }
+footer{
+    grid-area: ft;
+    text-align: center;
+    background: #fed766;
+    padding: 16px;
+    margin-top:16px;
+}
