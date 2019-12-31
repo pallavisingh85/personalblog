@@ -1,0 +1,77 @@
+.container{
+  display: grid;
+  grid-template-areas:
+  "hd"
+  "au"
+  "main"
+  "ft";
+}
+
+.header{
+ grid-area: hd;
+ background: #2ab7ca;
+ text-align: center;
+}
+
+.author{
+ grid-area: au;
+ padding: 24px;
+ display: flex;
+ justify-content: center;
+}
+
+.about-author{
+ display: flex;
+ flex-direction: column;
+ padding-left: 8px;
+ justify-content: space-evenly;
+}
+
+#author-name{
+ font-size: 24px;
+ color: #fe4a49
+}
+
+#author-title{
+font-size: 18px;
+}
+
+#author-description{
+font-size: 16px;
+font-style:italic;
+}
+
+.content{
+ grid-area: main;
+ font-size: 18px;
+}
+
+.content img{
+ width: 100%;
+}
+
+.blog{
+ margin: 24px;
+}
+
+.footer{
+ grid-area: ft;
+ text-align: center;
+ background: #fed766;
+ padding:16px;
+}
+
+.footer img{
+ width: 50px;
+ padding-left: 8px;
+ padding-right: 8px;
+}
+
+.box{
+  border: 2px solid #fe4a49;
+}
+
+.avatar{
+ width: 100px;
+ height: auto;
+}

@@ -5,6 +5,7 @@
   .header{
     grid-area: hd;
     text-align: center;
+    background: #2ab7ca;
   }
 
   .footer{
@@ -15,11 +16,13 @@
     grid-area: sd;
     padding-left: 32px;
     padding-right: 32px;
+    font-size: 20px;
+    font-style:italic
   }
 
   .footer{
    text-align: center;
-   background-color: gray;
-   color: white;
-   padding: 8px;
+   background: #fed766;
+   padding: 16px;
+   margin-top:16px;
   }
