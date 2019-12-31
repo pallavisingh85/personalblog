@@ -1,0 +1,25 @@
+@import url("container.css");
+@import url("card.css");
+@import url("content.css");
+
+  .header{
+    grid-area: hd;
+    text-align: center;
+  }
+
+  .footer{
+    grid-area: ft;
+  }
+
+  .sidebar{
+    grid-area: sd;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .footer{
+   text-align: center;
+   background-color: gray;
+   color: white;
+   padding: 8px;
+  }

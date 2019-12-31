@@ -1,0 +1,6 @@
+.content{
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
